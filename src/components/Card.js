@@ -74,6 +74,17 @@ const Card = ({ movie }) => {
         return genreArray.map((genre) => <li key={genre}>{genre}</li>)
     }
 
+    const addStorage = () => {
+        let storedMovies = window.localStorage.movies ? window.localStorage.movies.split(",") : [];
+
+        if (!storedMovies.includes(movie.id.toString())) {
+            storedMovies.push(movie.id);
+            window.localStorage.movies = storedMovies;
+        } else {
+            alert('Déjà enregistré !')
+        }
+    }
+
 
     return (
         <div className='card'>
@@ -87,7 +98,7 @@ const Card = ({ movie }) => {
             {movie.overview ? <h3>Synopsis</h3> : ""}
             <p>{movie.overview}</p>
 
-            <div className="btn">Ajouter aux coup de coeur</div>
+            <div className="btn" onClick={() => addStorage()} >Ajouter aux coup de coeur</div>
         </div>
     );
 };

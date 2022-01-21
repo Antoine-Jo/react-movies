@@ -3,8 +3,9 @@ import Header from '../components/Header';
 
 const UserList = () => {
     return (
-        <div>
+        <div className='user-list-page'>
             <Header />
+            <h2>Coup de coeur <span>💖</span></h2>
         </div>
     );
 };
