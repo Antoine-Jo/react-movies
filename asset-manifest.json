@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-movies/static/css/main.dd824a5a.css",
+    "main.js": "/react-movies/static/js/main.78270f3f.js",
+    "static/media/Dongle-Regular.ttf": "/react-movies/static/media/Dongle-Regular.be19c2ab1576230dd28d.ttf",
+    "static/media/Dongle-Light.ttf": "/react-movies/static/media/Dongle-Light.099c1b232ee32aedbc6d.ttf",
+    "index.html": "/react-movies/index.html",
+    "main.dd824a5a.css.map": "/react-movies/static/css/main.dd824a5a.css.map",
+    "main.78270f3f.js.map": "/react-movies/static/js/main.78270f3f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd824a5a.css",
+    "static/js/main.78270f3f.js"
+  ]
+}
